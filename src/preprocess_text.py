@@ -20,4 +20,13 @@ def remove_punctuation(text):
 
 
     
-    
+def tokenizer(text):
+    """
+    Input for which I need to tokenize
+
+    Returns list of tokens
+    -------
+    None.
+
+    """
+    return text.split()
